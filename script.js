@@ -5,14 +5,19 @@
 //console.error('This is an error message');
 
 //variables
+// var//
+// let //
+// const //
+
+/////////////
 
 var x; //declaration of the var
 x=10; // assignation of the value
 
 
-var userName='DeVonte'; // declaration and assignation
+var userName='DeVonte G'; // declaration and assignation
 let userAge=99;
-userAge=98;
+userAge=30;
 document.writeln(userAge);
 
 document.writeln(`<p> The users name is: ${userName}, and the age is ${userAge}</p>`);
@@ -25,4 +30,15 @@ var geoLocation='Georgia';
 var partnerName='None';
 var numberChildren=0;
 
-document.writeln(`<p> I will be a ${jobTitle} in ${geoLocation} my parter is ${partnerName} and I have ${numberChildren} children.</p>`)
+document.writeln(`<p> I will be a ${jobTitle} in ${geoLocation} my parter is ${partnerName} and I have ${numberChildren} children.</p>`);
+
+let emailAddress='someone@email.com';
+let passWord='okmIJNedc123';
+let country='United States';
+let salary= 4000;
+
+document.writeln(`
+    <p>Email Address: ${emailAddress}</p>
+    <p>Country: ${country}</p>
+    <p>Salary(Yearly): ${salary*12} </p>
+`)
