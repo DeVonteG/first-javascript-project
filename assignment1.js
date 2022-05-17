@@ -43,12 +43,11 @@ let basicOrPrime='Prime';
 let itemsInCart= 6;
 let accountType='Paid';
 let language='English';
-let switchAccount='Account 1';
-let signout='Sign Out';
+let switchAccount='Account Main';
+let signOut='Logged Out';
 
 
-const variable = ['userName','userEmail','password','dateOfBirth', 'userAge','gender','mobileNumber','country','browser','timeOnline', 'preferences','creditCardInfo','billingAddress','shippingAddress','basicOrPrime','itemsInCart','accountType','language','switchAccount','signOut']
-
+const variable= [userName, userEmail, password, dateOfBirth, userAge, gender, mobileNumber, country, browser, timeOnline, preferences, creditCardInfo, billingAddress, shippingAddress, basicOrPrime, itemsInCart, accountType, language, switchAccount, signOut]
 
 document.write(`
     <p class="variables">User Name: ${variable[0]}</p>
