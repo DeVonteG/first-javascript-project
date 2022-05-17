@@ -20,28 +20,55 @@
 // language
 // switchAccount
 // signOut
-const variables =['userName','userEmail','password','dateOfBirth', 'userAge','gender','mobileNumber','country','browser','timeOnline', 'preferences','creditCardInfo','billingAddress','shippingAddress','basicOrPrime','itemsInCart','accountType','language','switchAccount','signOut'];
+
 
 ///////Remember to use [] brackets when adding constants. If you add () it will not work and only use the last constant letter by letter ///////
-
 //// if there are multiple variables in an array they must be labeled with [#]
-document.write(`<p class="variables">User Name: ${variables[0]}</p>`);
-document.write(`<p class="variables">Email:  ${variables[1]}</p>`);
-document.write(`<p class="variables">Password: ${variables[2]}</p>`);
-document.write(`<p class="variables">Date of Birth: ${variables[3]}</p>`);
-document.write(`<p class="variables">Age: ${variables[4]}</p>`);
-document.write(`<p class="variables">Gender: ${variables[5]}</p>`);
-document.write(`<p class="variables">Mobile Number: ${variables[6]}</p>`);
-document.write(`<p class="variables">Country: ${variables[7]}</p>`);
-document.write(`<p class="variables">Browser Select: ${variables[8]}</p>`);
-document.write(`<p class="variables">Time: ${variables[9]}</p>`);
-document.write(`<p class="variables">Preferences: ${variables[10]}</p>`);
-document.write(`<p class="variables">CC Information: ${variables[11]}</p>`);
-document.write(`<p class="variables">Billing Address: ${variables[12]}</p>`);
-document.write(`<p class="variables">Shipping Address: ${variables[13]}</p>`);
-document.write(`<p class="variables"> Membership: ${variables[14]}</p>`);
-document.write(`<p class="variables">Items in Cart: ${variables[15]}</p>`);
-document.write(`<p class="variables">Account Type: ${variables[16]}</p>`);
-document.write(`<p class="variables">Language: ${variables[17]}</p>`);
-document.write(`<p class="variables">Switch Accounts:      ${variables[18]}</p>`);
-document.write(`<p class="variables">Sign Out: ${variables[19]}</p>`);
+
+let userName='DeVonte G';
+let userEmail='someone@email.com';
+let password='password';
+let dateOfBirth='mm/dd/yyyy';
+let userAge=18-99;
+let gender='male or female';
+let mobileNumber='xxx-xxx-xxxx';
+let country='United States';
+let browser='Duck Duck Go';
+let timeOnline=2;
+let preferences='n/a';
+let creditCardInfo='xxxx-xxxx-xxxx-xxxx';
+let billingAddress='123 Mills Rd.';
+let shippingAddress='123 Mills Rd.';
+let basicOrPrime='Prime';
+let itemsInCart= 6;
+let accountType='Paid';
+let language='English';
+let switchAccount='Account 1';
+let signout='Sign Out';
+
+
+const variable = ['userName','userEmail','password','dateOfBirth', 'userAge','gender','mobileNumber','country','browser','timeOnline', 'preferences','creditCardInfo','billingAddress','shippingAddress','basicOrPrime','itemsInCart','accountType','language','switchAccount','signOut']
+
+
+document.write(`
+    <p class="variables">User Name: ${variable[0]}</p>
+    <p class="variables">User Email: ${variable[1]}</p>
+    <p class="variables">Password: ${variable[2]}</p>
+    <p class="variables">Date of Birth: ${variable[3]}</p>
+    <p class="variables">User Age: ${variable[4]}</p>
+    <p class="variables">Gender: ${variable[5]}</p>
+    <p class="variables">Mobile Number: ${variable[6]}</p>
+    <p class="variables">Country: ${variable[7]}</p>
+    <p class="variables">Browser: ${variable[8]}</p>
+    <p class="variables">Time on Line: ${variable[9]}</p>
+    <p class="variables">Preferences: ${variable[10]}</p>
+    <p class="variables">CC Information: ${variable[11]}</p>
+    <p class="variables">Billing Address: ${variable[12]}</p>
+    <p class="variables">Shipping Address: ${variable[13]}</p>
+    <p class="variables">Membership Type: ${variable[14]}</p>
+    <p class="variables">Items in Cart: ${variable[15]}</p>
+    <p class="variables">Account Type: ${variable[16]}</p>
+    <p class="variables">Language: ${variable[17]}</p>
+    <p class="variables">Switch Account: ${variable[18]}</p>
+    <p class="variables">Sign Out: ${variable[19]}</p>
+`)
